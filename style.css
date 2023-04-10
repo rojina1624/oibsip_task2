@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.container{
+	display: flex;
+}
+
+.container .left{
+	width: 25%;
+	height: 100vh;
+	background: #333;
+	color: white;
+	font-size: 140%;
+	position: fixed;
+}
+
+.container .left .ax{
+    width: 100%;
+    padding-left: 30%;
+    justify-content: center;
+}
+
+.ax img{
+    width: 130px;
+    border-radius: 600px;
+
+}
+
+.container .left .name h4{
+    text-align: center;
+    color: white;
+}
+
+.container .left .name h6{
+    text-align: center;
+    color: yellow;
+}
+
+.detail{
+	display: inline-grid;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
+
+
+
+.detail h3{
+	width: 200%;
+	font-size: 40px;
+	transform: translateX(-10%);
+}
+
+.detail h3 span{
+	color: yellow;
+}
+
+
+
+
+.btn{
+	display: grid;
+	transform: translateX(20%);
+	padding-top: 20px;
+}
+
+.btn a{
+	text-decoration:none;
+	color: white;
+	
+	width: 200px;
+	text-align: center;
+	height: 50px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-radius: 50px;
+	background: rgba(255,255,255,0.1);
+}
+
+.container .right{
+	width: 75%;
+	background-color: black;
+	color: white;
+	margin-left: 25%;
+}
+
+#home{
+	width: 100%;
+	height: 100vh;
+	padding-top: 20%;
+	border-bottom: 1px solid tomato;
+	padding-right: auto;
+    padding-left: 5%;
+	display: flex;
+}
+
+#home .ex{
+	width: 70%;
+}
+
+
+
+
+#about{
+	width: 100%;
+	height: 100vh;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: auto;
+	border-bottom: 1px solid blue;
+}
+
+#about h1{
+	font-size: 3em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#about p{
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 24px;
+	text-align: justify;
+}
+
+#education{
+	width: 100%;
+	height: 100vh;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: auto;
+	border-bottom: 1px solid yellow;
+}
+
+#education h1{
+	font-size: 3em;
+	text-align: center;
+	text-decoration: underline;	
+	padding-bottom: 2%;
+}
+
+#education .b{
+	padding-left: 3%;
+}
+
+#contact{
+	width: 100%;
+	height: 110vh;
+	padding-top: 3%;
+	padding-left: 20%;
+	justify-content: center;
+	padding-right: auto;
+}
+
+#home span
+{
+	color: yellow;	
+}
+
+.aboutus {
+	text-decoration: none;
+	color: white;
+	border: 1px solid tomato;
+	background: tomato;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 50px;
+}
+
+
+
+.clrw{
+	color: yellow;
+}
+
+
+    .cnt{
+            
+            padding-top: 5%;
+            font-size: 40px;
+            color: yellow;
+        }
+        .qt{
+            font-size: 10px;
+            font-family: Arial;
+            color: white;
+            
+        }
+        .form{
+            font-size: 25px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+            height: 100vh;
+            width: 500px;
+           
+        }
+        .main{
+            height: 100%;
+        
+        }
+        .b1{
+           color: black;
+           background-color: tomato; 
+           border: white;
+           border-radius: 5px;
+            font-weight: bold;
+        }
+        .b2{
+            color: black;
+            background-color: tomato; 
+            border: white;
+            border-radius: 5px;
+             font-weight: bold;
+         }
+         .b1:hover{
+            background-color: tomato; 
+            border: tomato;
+            color:black;
+         }
+         .b2:hover{
+            background-color: tomato; 
+            border: tomato;
+            color:black;
+         }
+
+        .content{
+            display: flex;
+        }
+        .cncts{
+            padding-left: 10%;
+            padding-top: 10px;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+       
+       
+        }
+       
+       
+
